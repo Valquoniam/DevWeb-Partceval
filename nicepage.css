@@ -3,6 +3,20 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
+ @font-face{
+   font-family: "Medieval";
+   src:url(Kingthings_Foundation-webfont.woff);
+ }
+b{
+  font-family: "Medieval";
+}
+h1{
+  font-family: "Medieval";
+}
+
+p{
+  font-family: "Medieval";
+}
 
 .fr-clearfix::after {
   clear: both;
@@ -35305,8 +35319,8 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #6e1313 !important;
         }
 
-        
-        
+
+
         .u-custom-color-4,
         .u-body.u-custom-color-4,
         .u-container-style.u-custom-color-4:before,
@@ -35368,8 +35382,8 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #931513 !important;
         }
 
-        
-        
+
+
         .u-custom-color-6,
         .u-body.u-custom-color-6,
         .u-container-style.u-custom-color-6:before,
@@ -35431,8 +35445,8 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #1d5d14 !important;
         }
 
-        
-        
+
+
         .u-custom-color-7,
         .u-body.u-custom-color-7,
         .u-container-style.u-custom-color-7:before,
@@ -35494,8 +35508,8 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #aaa17d !important;
         }
 
-        
-        
+
+
         .u-custom-color-8,
         .u-body.u-custom-color-8,
         .u-container-style.u-custom-color-8:before,
@@ -35557,9 +35571,9 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #fff0b1 !important;
         }
 
-        
 
-        
+
+
         .u-border-custom-color-2,
         .u-separator-custom-color-2:after
         {
@@ -35606,8 +35620,8 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             border-color: #631111 !important;
         }
-        
-        
+
+
         .u-border-custom-color-4,
         .u-separator-custom-color-4:after
         {
@@ -35654,8 +35668,8 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             border-color: #841311 !important;
         }
-        
-        
+
+
         .u-border-custom-color-6,
         .u-separator-custom-color-6:after
         {
@@ -35702,8 +35716,8 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             border-color: #1a5412 !important;
         }
-        
-        
+
+
         .u-border-custom-color-7,
         .u-separator-custom-color-7:after
         {
@@ -35750,8 +35764,8 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             border-color: #9e946b !important;
         }
-        
-        
+
+
         .u-border-custom-color-8,
         .u-separator-custom-color-8:after
         {
@@ -35798,9 +35812,9 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             border-color: #ffe886 !important;
         }
-        
 
-        
+
+
         .u-text-custom-color-2,
         a.u-button-style.u-text-custom-color-2,
         a.u-button-style.u-text-custom-color-2[class*="u-border-"]
@@ -35862,8 +35876,8 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             color: #6e1313 !important;
         }
-        
-        
+
+
         .u-text-custom-color-4,
         a.u-button-style.u-text-custom-color-4,
         a.u-button-style.u-text-custom-color-4[class*="u-border-"]
@@ -35925,8 +35939,8 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             color: #931513 !important;
         }
-        
-        
+
+
         .u-text-custom-color-6,
         a.u-button-style.u-text-custom-color-6,
         a.u-button-style.u-text-custom-color-6[class*="u-border-"]
@@ -35988,8 +36002,8 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             color: #1d5d14 !important;
         }
-        
-        
+
+
         .u-text-custom-color-7,
         a.u-button-style.u-text-custom-color-7,
         a.u-button-style.u-text-custom-color-7[class*="u-border-"]
@@ -36051,8 +36065,8 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             color: #aaa17d !important;
         }
-        
-        
+
+
         .u-text-custom-color-8,
         a.u-button-style.u-text-custom-color-8,
         a.u-button-style.u-text-custom-color-8[class*="u-border-"]
@@ -36115,7 +36129,7 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #fff0b1 !important;
         }
 
-        
+
 
         /** common-rules **/
         h1.u-title
@@ -36278,7 +36292,7 @@ a.u-link.u-text-hover-grey-90:hover {
         /*end-media rules*/
         /** publish-rules **/
 
-        
+
 
         /** cms-rules **/
         /*begin-responsive rules*/
@@ -36401,7 +36415,7 @@ a.u-link.u-text-hover-grey-90:hover {
         color: #ffffff;
         }
         /** alt-color-rules **/
-    
+
 
 
 /*end-variables sitestylecss*/
@@ -36527,6 +36541,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
- /*begin-variables base-font-size*/ 
+ /*begin-variables base-font-size*/
  html { font-size: 16px; }
  /*end-variables base-font-size*/

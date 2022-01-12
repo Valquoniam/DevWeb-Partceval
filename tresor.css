@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("images/parchemin.jpg");
+  background-position:55% 12% ;
+  background-repeat: no-repeat;
+}
+@font-face{
+  font-family: "Medieval";
+  src:url(Kingthings_Foundation-webfont.woff);
+}
+
+.message-centré{
+  overflow: visible;
+  position: relative;
+  top: 45vh;
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  font-family: "Medieval";
+}
